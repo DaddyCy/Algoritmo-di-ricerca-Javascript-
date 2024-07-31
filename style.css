@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+   
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+header{
+        display: flex;
+        flex-direction: row;
+}
+#nomeagenzia{
+    margin-top: 20px;
+    margin-left: 40%;
+}
+#nomeagenzia h3{
+    padding-left: 25px;
+}
+
+
+
+main{   display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+#main1{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+}
+
+#search{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+       margin-bottom: 10px;
+}
+
+#posizione{
+        margin-left: 15px;
+    }
+#luogodilavoro{
+        margin-left: 25px;
+}
+#click{
+        margin-left: 20px;
+}
+
+        
+
+table, th, td {
+        border-collapse: collapse;
+        
+      }
+th, td {
+        background-color: #d8e6e6;
+        border-radius: 6px;
+}
+
+#main2{
+     width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+
+}  
+.listings{
+        margin-top: 10px;
+        margin-left: 15px;
+}  
+
+#image{  
+        display: flex;
+        margin-top: 5px;
+        margin-left: 60px;
+ border: 1px solid rgb(146, 142, 142);
+}
+    
+
+
+
+
